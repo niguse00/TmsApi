@@ -17,7 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddSingleton<EnrollmentWorker>();
+// builder.Services.AddSingleton<EnrollmentWorker>();
 builder.Services.AddScoped<IEnrollmentService, EnrollmentService>();
 builder.Services.AddRouting();
 builder.Services
@@ -40,6 +40,7 @@ options.UseNpgsql(builder.Configuration.GetConnectionString("TmsDatabase"))
 .LogTo(Console.WriteLine, LogLevel.Information)
 .EnableSensitiveDataLogging());
 
+builder.Services.AddScoped<ICourseService, CourseService>();
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -69,11 +70,11 @@ app.MapGet("/api/assessments/results", () => Results.Ok(new
 })).RequireAuthorization();
 
 
-app.MapGet("/api/enrollments/worker-smoke", (EnrollmentWorker worker) =>
-{
-    worker.ProcessBatch();
-    return Results.Ok("processed");
-});
+// app.MapGet("/api/enrollments/worker-smoke", (EnrollmentWorker worker) =>
+// {
+//     worker.ProcessBatch();
+//     return Results.Ok("processed");
+// });
 
 app.MapGet("/api/error", () =>
 {
@@ -105,9 +106,9 @@ using (var scope = app.Services.CreateScope())
 
         var courses = new List<Course>
         {
-            new() { Code = "CS-101", Title = "Introduction to Computer Science", Capacity = 30 },
-            new() { Code = "CS-201", Title = "Data Structures and Algorithms", Capacity = 25 },
-            new() { Code = "MAT-101", Title = "Calculus I", Capacity = 40 }
+            new() { Code = "CS-101", Title = "Introduction to Computer Science", MaxCapacity = 30 },
+            new() { Code = "CS-201", Title = "Data Structures and Algorithms", MaxCapacity = 25 },
+            new() { Code = "MAT-101", Title = "Calculus I", MaxCapacity = 40 }
         };
 
         context.Courses.AddRange(courses);
@@ -127,3 +128,14 @@ using (var scope = app.Services.CreateScope())
     }
 }
 app.Run();
+
+
+// Payment Options class
+public class PaymentOptions
+{
+    [System.ComponentModel.DataAnnotations.Required]
+    public required string GatewayUrl { get; set; }
+    
+    [System.ComponentModel.DataAnnotations.Range(100, 100000)]
+    public decimal MaxDepositBirr { get; set; }
+}
