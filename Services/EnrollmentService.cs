@@ -60,6 +60,11 @@ public class EnrollmentService(
     {
         throw new NotImplementedException();
     }
+
+    public Task<EnrollmentResponseDto?> GetByCourseAsync(int courseId, CancellationToken ct)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 
