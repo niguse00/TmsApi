@@ -2288,11 +2288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\desktop\\Lab\\TmsApi\\TmsApi.csproj",
+      "projectUniqueName": "D:\\desktop\\Labs\\TmsApi\\TmsApi.csproj",
       "projectName": "TmsApi",
-      "projectPath": "D:\\desktop\\Lab\\TmsApi\\TmsApi.csproj",
+      "projectPath": "D:\\desktop\\Labs\\TmsApi\\TmsApi.csproj",
       "packagesPath": "C:\\Users\\NEW\\.nuget\\packages\\",
-      "outputPath": "D:\\desktop\\Lab\\TmsApi\\obj\\",
+      "outputPath": "D:\\desktop\\Labs\\TmsApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NEW\\AppData\\Roaming\\NuGet\\NuGet.Config"
