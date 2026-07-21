@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using TmsApi.Entities;
+using TmsApi.Persistence;
 
 namespace TmsApi.Data;
 
