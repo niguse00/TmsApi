@@ -2720,11 +2720,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\desktop\\Labs\\TmsApi\\TmsApi.Infrastructure\\TmsApi.Infrastructure.csproj",
+      "projectUniqueName": "d:\\desktop\\Tms\\TmsApi\\TmsApi.Infrastructure\\TmsApi.Infrastructure.csproj",
       "projectName": "TmsApi.Infrastructure",
-      "projectPath": "D:\\desktop\\Labs\\TmsApi\\TmsApi.Infrastructure\\TmsApi.Infrastructure.csproj",
+      "projectPath": "d:\\desktop\\Tms\\TmsApi\\TmsApi.Infrastructure\\TmsApi.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\NEW\\.nuget\\packages\\",
-      "outputPath": "D:\\desktop\\Labs\\TmsApi\\TmsApi.Infrastructure\\obj\\",
+      "outputPath": "d:\\desktop\\Tms\\TmsApi\\TmsApi.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NEW\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2740,11 +2740,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\desktop\\Labs\\TmsApi\\TmsApi.Application\\TmsApi.Application.csproj": {
-              "projectPath": "D:\\desktop\\Labs\\TmsApi\\TmsApi.Application\\TmsApi.Application.csproj"
+            "d:\\desktop\\Tms\\TmsApi\\TmsApi.Application\\TmsApi.Application.csproj": {
+              "projectPath": "d:\\desktop\\Tms\\TmsApi\\TmsApi.Application\\TmsApi.Application.csproj"
             },
-            "D:\\desktop\\Labs\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj": {
-              "projectPath": "D:\\desktop\\Labs\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj"
+            "d:\\desktop\\Tms\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj": {
+              "projectPath": "d:\\desktop\\Tms\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj"
             }
           }
         }

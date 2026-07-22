@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\desktop\\Labs\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj": {}
+    "d:\\desktop\\Tms\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj": {}
   },
   "projects": {
-    "D:\\desktop\\Labs\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj": {
+    "d:\\desktop\\Tms\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\desktop\\Labs\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj",
+        "projectUniqueName": "d:\\desktop\\Tms\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj",
         "projectName": "TmsApi.Domain",
-        "projectPath": "D:\\desktop\\Labs\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj",
+        "projectPath": "d:\\desktop\\Tms\\TmsApi\\TmsApi.Domain\\TmsApi.Domain.csproj",
         "packagesPath": "C:\\Users\\NEW\\.nuget\\packages\\",
-        "outputPath": "D:\\desktop\\Labs\\TmsApi\\TmsApi.Domain\\obj\\",
+        "outputPath": "d:\\desktop\\Tms\\TmsApi\\TmsApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NEW\\AppData\\Roaming\\NuGet\\NuGet.Config"
