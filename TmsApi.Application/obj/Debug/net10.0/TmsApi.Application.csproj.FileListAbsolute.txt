@@ -1,0 +1,16 @@
+d:\desktop\Tms\TmsApi\TmsApi.Application\bin\Debug\net10.0\TmsApi.Application.deps.json
+D:\desktop\Tms\TmsApi\TmsApi.Application\bin\Debug\net10.0\TmsApi.Application.dll
+D:\desktop\Tms\TmsApi\TmsApi.Application\bin\Debug\net10.0\TmsApi.Application.pdb
+D:\desktop\Tms\TmsApi\TmsApi.Application\bin\Debug\net10.0\TmsApi.Domain.dll
+D:\desktop\Tms\TmsApi\TmsApi.Application\bin\Debug\net10.0\TmsApi.Domain.pdb
+D:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\TmsApi.Application.csproj.AssemblyReference.cache
+D:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\TmsApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\TmsApi.Application.AssemblyInfoInputs.cache
+D:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\TmsApi.Application.AssemblyInfo.cs
+D:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\TmsApi.Application.csproj.CoreCompileInputs.cache
+D:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\TmsApi.Application.sourcelink.json
+d:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\TmsApi.A.8F6B91CF.Up2Date
+D:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\TmsApi.Application.dll
+D:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\refint\TmsApi.Application.dll
+D:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\TmsApi.Application.pdb
+d:\desktop\Tms\TmsApi\TmsApi.Application\obj\Debug\net10.0\ref\TmsApi.Application.dll

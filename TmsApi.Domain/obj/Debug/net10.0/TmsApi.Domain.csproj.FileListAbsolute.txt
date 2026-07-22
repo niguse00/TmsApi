@@ -1,0 +1,12 @@
+d:\desktop\Tms\TmsApi\TmsApi.Domain\bin\Debug\net10.0\TmsApi.Domain.deps.json
+D:\desktop\Tms\TmsApi\TmsApi.Domain\bin\Debug\net10.0\TmsApi.Domain.dll
+D:\desktop\Tms\TmsApi\TmsApi.Domain\bin\Debug\net10.0\TmsApi.Domain.pdb
+D:\desktop\Tms\TmsApi\TmsApi.Domain\obj\Debug\net10.0\TmsApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\desktop\Tms\TmsApi\TmsApi.Domain\obj\Debug\net10.0\TmsApi.Domain.AssemblyInfoInputs.cache
+D:\desktop\Tms\TmsApi\TmsApi.Domain\obj\Debug\net10.0\TmsApi.Domain.AssemblyInfo.cs
+D:\desktop\Tms\TmsApi\TmsApi.Domain\obj\Debug\net10.0\TmsApi.Domain.csproj.CoreCompileInputs.cache
+D:\desktop\Tms\TmsApi\TmsApi.Domain\obj\Debug\net10.0\TmsApi.Domain.sourcelink.json
+D:\desktop\Tms\TmsApi\TmsApi.Domain\obj\Debug\net10.0\TmsApi.Domain.dll
+D:\desktop\Tms\TmsApi\TmsApi.Domain\obj\Debug\net10.0\refint\TmsApi.Domain.dll
+D:\desktop\Tms\TmsApi\TmsApi.Domain\obj\Debug\net10.0\TmsApi.Domain.pdb
+d:\desktop\Tms\TmsApi\TmsApi.Domain\obj\Debug\net10.0\ref\TmsApi.Domain.dll
