@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using TmsApi.Domain.Entities;
 using TmsApi.Infrastructure.Persistence;
 using TmsApi.Application.DTOs;
+using TmsApi.Application.Interfaces;
 
 namespace TmsApi.Infrastructure.Services;
 
@@ -110,4 +111,22 @@ context.Courses.AsNoTracking().AnyAsync(c => c.Code == code, ct);
         };
         // throw new NotImplementedException();
     }
+
+   
+
+public Task<CourseResponseDto?> GetByCodeAsync(string code, CancellationToken ct)
+{
+    return context.Courses
+        .AsNoTracking()
+        .Where(c => c.Code == code)
+        .Select(c => new CourseResponseDto(
+            c.Id,
+            c.Code,
+            c.Title,
+            c.MaxCapacity,
+            c.Enrollments.Count))
+        .FirstOrDefaultAsync(ct);
+}
+
+
 }

@@ -3,6 +3,9 @@ using Microsoft.Extensions.Logging;
 using TmsApi.Domain.Entities;
 using TmsApi.Infrastructure.Persistence;
 using TmsApi.Application.DTOs;
+using TmsApi.Application.Interfaces;
+
+
 
 
 
@@ -67,6 +70,35 @@ public class EnrollmentService(
     public Task<EnrollmentResponseDto?> GetByCourseAsync(int courseId, CancellationToken ct)
     {
         throw new NotImplementedException();
+    }
+
+    public Task<bool> ExistsAsync(
+    int studentId,
+    string courseCode,
+    CancellationToken ct)
+{
+    return context.Enrollments
+        .AnyAsync(e =>
+            e.StudentId == studentId &&
+            e.Course.Code == courseCode,
+            ct);
+}
+    
+
+public async Task AddAsync(
+    Enrollment enrollment,
+    CancellationToken ct)
+{
+    context.Enrollments.Add(enrollment);
+    await context.SaveChangesAsync(ct);
+}
+
+    public Task<List<Enrollment>> GetByStudentIdAsync(int studentId, CancellationToken ct)
+    {
+        return context.Enrollments
+        .Include(e => e.Course)
+        .Where(e => e.StudentId == studentId)
+        .ToListAsync(ct);
     }
 }
 
